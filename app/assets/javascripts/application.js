@@ -12,9 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap-sprockets
-//= require nested_form_fields
 //= require rails-ujs
+//= require bootstrap-sprockets
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require nested_form_fields
