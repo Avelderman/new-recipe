@@ -14,5 +14,5 @@
 //= require bootstrap-sprockets
 //= require activestorage
 //= require turbolinks
+//= require cocoon
 //= require_tree .
-//= require nested_form_fields
