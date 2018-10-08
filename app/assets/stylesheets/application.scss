@@ -1,31 +1,225 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-img.recipe-show {
-  width: 400px;
-  height: auto;
+
+
+
+.navbar .container-fluid {
+  background: tan;
+  border: 2px solid black;
 }
 
-.recipe-box {
-  height: 600px;
-  position: relative;
-  box-shadow: 10px 10px 5px #888888;
-  background: #bdc3c7;
-  margin-bottom: 20px;
+
+.container-fluid {
+  background: lightblue;
+
+  border: 2px solid black;
 }
+
+
+.upper-page h1, p {
+  margin: 0;
+}
+
+.upper-page h1 {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+font-size: 30px;
+}
+
+
 
 img.recipe-index {
   width: 100%;
-  height: 70%;
+  height: 90%;
   object-fit: cover;
+  border-radius: 25px;
+  border: 2px inset #bdc3c7;
 }
 
-.recipe-box ul {
+.recipe-box {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  border-radius: 25px;
+  border: 3px outset #bdc3c7;
+  background: tan;
+}
+
+
+.recipe-box h1 {
+  font-size: 30px;
+  padding-top: 15px;
+  padding-left: 22px;
+  margin: 0;
+  color: #800000;
+
+}
+
+
+.col-md-9 {
+  padding: 0px;
+
+}
+
+.col-md-3 {
+  padding: 0px;
+
+}
+
+.word-box {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  border-radius: 25px;
+  border: 3px outset #bdc3c7;
+  background: tan;
+}
+
+.word-box ul {
+  overflow-wrap: break-word;
   list-style-type:none;
-  position: absolute;
+  padding: 100px 20px;
+  top: 200px;
   bottom: 0;
+  text-decoration: none;
 }
 
-.recipe-box li:first-child {
-  font-size: 24px;
+.word-box li:first-child {
+  font-size: 12px;
+
+}
+
+.word-box h1:first-child {
+  font-size: 17px;
+
+}
+
+
+.button1 {
+    background-color: #bdc3c7;
+    color: black;
+    border: 4px outset #bdc3c7;
+    border-radius: 12px;
+}
+
+.button1:hover {
+  background-color: lightgrey;
+  border: 4px outset lightblue;
+}
+
+.button2 {
+    background-color: #bdc3c7;
+    color: black;
+    border: 4px outset #bdc3c7;
+    border-radius: 12px;
+}
+
+.li, .button2:hover {
+  background-color: lightyellow;
+  border: 4px outset #800000;
+}
+
+
+/* Start of Show Page */
+
+.show-page {
+  height: 100vh; /* For 100% screen height */
+    width:  100vw; /* For 100% screen width */
+}
+
+
+.show-page .col-md-4 {
+padding-left: 10px;
+padding-top: 20px;
+}
+
+
+img.recipe-show {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 2px inset #bdc3c7;
+}
+
+.show-box-1 {
+  width: 90%;
+  height: 600px;
+  margin: 0px;
+  border-radius: 25px;
+  border: 3px outset #bdc3c7;
+  background: tan;
+}
+
+
+.show-box-1 h1 {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #800000;
+}
+
+.show-box-1 p {
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+
+.show-buttons {
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.show-box-2 {
+  width: 90%;
+  height: 600px;
+  margin: 0px;
+  border-radius: 25px;
+  border: 3px outset #bdc3c7;
+  background: tan;
+}
+
+.show-box-2 h3 {
+  padding-left: 25px;
+  padding-top: 15px;
+  font-size: 30px;
+  color: #800000;
+}
+
+.show-box-2 li {
+  padding-left: 130px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+
+.show-box-3 {
+  width: 90%;
+  height: 600px;
+  margin: 0px;
+  border-radius: 25px;
+  border: 3px outset #bdc3c7;
+  background: tan;
+}
+
+
+.show-box-3 h3 {
+  padding-left: 25px;
+  padding-top: 65px;
+  font-size: 30px;
+  color: #800000;
+}
+
+.show-box-3 li {
+  padding-left: 130px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+/* Start of Edit Page */
+
+.edit-page {
+padding-left: 60px;
+
 }

@@ -1,6 +1,37 @@
+<div class="container-fluid">
+
+<div class="col-md-4">
+<div class="show-box-2">
+
+<div class="edit-page">
 <h1>Editing Recipe</h1>
 
-<%= render 'form', recipe: @recipe %>
 
-<%= link_to 'Show', @recipe %> |
-<%= link_to 'Back', recipes_path %>
+
+<div class="show-buttons">
+  <button class="button button1"><%= link_to 'Show', @recipe %></button> |
+  <button class="button button1"><%= link_to 'Back', recipes_path %></button>
+</div><!--show-buttons-->
+</div><!--edit-page-->
+
+
+
+</div>
+</div><!--col-md-4-->
+
+
+
+<div class="col-md-4">
+
+
+      <%= render 'form', recipe: @recipe %>
+
+
+</div><!--col-md-4-->
+
+
+
+
+<br>
+<br>
+</div><!--/container-->

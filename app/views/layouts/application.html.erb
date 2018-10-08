@@ -11,14 +11,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ujs/1.2.2/rails.min.js"></script>
   </head>
 
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <%= link_to "Recipe App", root_path, class: 'navbar-brand' %>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav navbar-right">
-        <li><%= link_to "About", pages_about_path %></li>
-      </ul>
-    </div>
-  </nav>
+
+
+
+<nav class="navbar navbar-default">
+  
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><%= link_to "Recipe App", root_path, class: 'navbar-brand' %></li>
+      <li><%= link_to 'New Recipe', new_recipe_path %></li>
+      <li><%= link_to "About", pages_about_path %></li>
+    </ul>
+  </div><!--container-fluid"-->
+
+</nav>
+
+
 
   <body>
     <%= yield %>
