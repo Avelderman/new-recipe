@@ -1,17 +1,41 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* start of most recent addons */
 
+#ingredients {
+  padding-left: 20px;
+}
+
+#steps {
+  padding-left: 15px;
+}
+
+#recipe_image {
+  padding-left: 20px;
+}
+
+.actions {
+  padding-left: 15px;
+}
+
+
+/* end of most recent addons */
+
+a:link {
+  text-decoration: none;
+}
 
 
 .navbar .container-fluid {
   background: tan;
   border: 2px solid black;
+  height: auto;
 }
 
 
 .container-fluid {
-  background: lightblue;
+  background: #CB4335;
 
   border: 2px solid black;
 }
@@ -68,6 +92,12 @@ img.recipe-index {
 
 }
 
+
+.col-md-7 h1 {
+  color: #bdc3c7;
+
+}
+
 .word-box {
   width: 100%;
   height: 600px;
@@ -106,7 +136,7 @@ img.recipe-index {
 
 .button1:hover {
   background-color: lightgrey;
-  border: 4px outset lightblue;
+  border: 4px outset green;
 }
 
 .button2 {
@@ -168,7 +198,12 @@ img.recipe-show {
 
 .show-buttons {
   padding-top: 20px;
-  padding-left: 25px;
+  padding-left: 70px;
+}
+
+.show-buttons-main {
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .show-box-2 {
@@ -222,4 +257,22 @@ img.recipe-show {
 .edit-page {
 padding-left: 60px;
 
+}
+
+.show-box-54 {
+  width: 90%;
+  height: auto;
+  margin: 0px;
+  border-radius: 25px;
+  border: 3px outset #bdc3c7;
+  background: tan;
+}
+
+
+.show-box-54 h3, {
+  margin-left: 10px;
+}
+
+.show-box-54 h1, {
+  margin-left: 20px;
 }
